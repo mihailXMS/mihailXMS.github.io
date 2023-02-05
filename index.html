@@ -38,17 +38,17 @@
             embedded_svc.settings.entryFeature = 'LiveAgent';
     
             embedded_svc.init(
-                'https://augustin-dev-ed.my.salesforce.com',
-                'https://augustin-dev-ed.my.site.com/resume',
+                'https://wise-goat-ipbzsq-dev-ed.trailblaze.my.salesforce.com',
+                'https://wise-goat-ipbzsq-dev-ed.trailblaze.my.salesforce-sites.com/liveAgentSetupFlow',
                 gslbBaseURL,
-                '00D2p00000139Ja',
-                'testEmbeddedServiceDepl',
+                '00D68000000bTLk',
+                'fasdf',
                 {
-                    baseLiveAgentContentURL: 'https://c.la1-c2-fra.salesforceliveagent.com/content',
-                    deploymentId: '5722p000000LIqD',
-                    buttonId: '5732p000000H7QZ',
-                    baseLiveAgentURL: 'https://d.la1-c2-fra.salesforceliveagent.com/chat',
-                    eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I2p000000Cch3EAC_1861ea91213',
+                    baseLiveAgentContentURL: 'https://c.la3-c2-fra.salesforceliveagent.com/content',
+                    deploymentId: '57268000000oVl2',
+                    buttonId: '57368000000CkRu',
+                    baseLiveAgentURL: 'https://d.la3-c2-fra.salesforceliveagent.com/chat',
+                    eswLiveAgentDevName: 'fasdf',
                     isOfflineSupportEnabled: false
                 }
             );
@@ -56,7 +56,7 @@
     
         if (!window.embedded_svc) {
             var s = document.createElement('script');
-            s.setAttribute('src', 'https://augustin-dev-ed.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+            s.setAttribute('src', 'https://wise-goat-ipbzsq-dev-ed.trailblaze.my.salesforce.com/embeddedservice/5.0/esw.min.js');
             s.onload = function() {
                 initESW(null);
             };
